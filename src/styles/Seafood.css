@@ -1,0 +1,114 @@
+.Section2All{
+  width: 1109px;
+   top:100px;
+    left:120px;
+     height: 454px;
+      position: relative;
+    }
+
+  .Section2Background{
+    width: 587px;
+    height: 452px;
+    left: 1px;
+    top: 0px;
+    position: absolute; 
+    background: #CBF3B7;
+  }
+
+  .Section2Text{
+    width: 428px;
+    height: 241px;
+     left: 10px;
+      top: 20px;
+       position: absolute;
+      }
+
+  .Content{
+     width: 427.46px;
+      height: 99.68px;
+       left: 0.55px;
+        top: 138.76px;
+        position: absolute; 
+        flex-Direction: column;
+        justify-Content: flex-start;
+        align-Items: flex-start;
+        display: inline-flex;
+      }
+
+      .Lorem{
+        width: 429.01px;
+        height: 95.54px;
+        color: black;
+         font-Size: 16px;
+          font-Family: Poppins;
+          font-Weight: 400px;
+           letter-Spacing: 0.56px;
+           word-Wrap: break-word;
+          }
+      
+      .StockFish{
+        width: 429.99px;
+         height: 213px;
+      }
+    
+
+    .Direct{
+      width: 238.26px;
+      height: 62.60px; 
+      left: 3.33px;
+       top: 71.99px;
+        position: absolute;
+         color: #095809;
+         font-Size: 20px;
+         font-Family: Poppins;
+          font-Weight: 500px;
+           word-Wrap: break-word;
+    }
+    
+    .SeaFood {
+      width: 265.18px;
+      height: 56.34px;
+       left: 2px;
+        top: 0px;
+         position: absolute;
+         color: #095809;
+         font-Size: 40px;
+          font-Family: Poppins;
+           font-Weight: 700px;
+           word-Wrap: 'break-word'
+    }
+  
+
+.NavIcon3 {
+  width: 40px;
+  height: 40px;
+  left: 468px;
+  top: 400px;
+  position: absolute;
+}
+  
+  
+  .Frame2{
+    width: 595px;
+     height: 452px;
+      left: 514px;
+      top: 2px;
+      position: absolute;
+       justify-Content: center;
+       align-Items: center;
+        display: inline-flex;
+  }
+    
+  .Frame1{
+    flex: 1 1 0;
+       align-Self: stretch;
+        justify-Content: center;
+        align-Items: center;
+         display: inline-flex;
+        }
+    
+    .GroceryBag{
+      width: 595px;
+      height: 452px;
+    }
+  

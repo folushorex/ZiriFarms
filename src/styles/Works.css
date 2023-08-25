@@ -1,0 +1,203 @@
+
+.card-3-all {
+    width: 333px;
+    height: 379px;
+    position: static;
+  }
+  .card-3 {
+    background: #cbf3b7;
+    width: 333px;
+    height: 379px;
+    position: absolute;
+    left: 800px;
+    top: 1100px;
+  }
+  .card-content-3 {
+    width: 270.24px;
+    height: 204.55px;
+    position: static;
+  }
+  .loremcard3 {
+    color: #000000;
+    text-align: left;
+    font: 400 12px "Poppins", sans-serif;
+    position: absolute;
+    left: 840px;
+    top: 1300px;
+    width: 269.93px;
+    transform-origin: 0 0;
+    transform: rotate(0.329deg) scale(1, 1);
+  }
+  .fast-delivery {
+    color: #095809;
+    text-align: left;
+    font: 700 20px "Poppins", sans-serif;
+    position: absolute;
+    left: 900px;
+    top: 1270px;
+    width: 146px;
+    height: 34px;
+  }
+  .delivery {
+    width: 80px;
+    height: 69px;
+    position: absolute;
+    left: 930px;
+    top: 1200px;
+  }
+  
+  .card-2-all {
+    width: 332.45px;
+    height: 379px;
+    position: static;
+    
+  }
+  .card-2-group {
+    width: 332.45px;
+    height: 379px;
+    position: static;
+  
+  
+  }
+  .card-2 {
+    background: #cbf3b7;
+    width: 332.45px;
+    height: 379px;
+    position: absolute;
+    left: 409px;
+    top: 1100px;
+  }
+  .card-content-2 {
+    width: 265.24px;
+    height: 209.28px;
+    position: static;
+    
+  }
+  .choose-how-often {
+    color: #095809;
+    text-align: left;
+    font: 700 20px "Poppins", sans-serif;
+    position: absolute;
+    left: 480px;
+    top: 1270px;
+    width: 200.87px;
+    height: 30.96px;
+  }
+  .loremcard2 {
+    color: #000000;
+    text-align: left;
+    font: 400 12px "Poppins", sans-serif;
+    position: absolute;
+    left: 450px;
+    top:1300px;
+    width: 264.94px;
+    height: 56.12px;
+    transform-origin: 0 0;
+    transform: rotate(0.309deg) scale(1, 1);
+  }
+  
+  .timelimit{
+    width: 96.71px;
+    height: 71.84px;
+    left: 520px;
+     top: 1200px;
+     position: absolute;
+  }
+  
+  
+  
+  .card-1-all {
+    width: 333px;
+    height: 378px;
+    position: static;
+  }
+  .card-1 {
+    background: #cbf3b7;
+    width: 333px;
+    height: 378px;
+    position: absolute;
+    left: 15px;
+    top: 1100px;
+  }
+  .card-group-1 {
+    width: 272.91px;
+    height: 204px;
+    position: static;
+  }
+  .card-content {
+    width: 272.91px;
+    height: 93px;
+    position: static;
+  }
+  .pick-products {
+    color: #095809;
+    text-align: left;
+    font: 700 20px "Poppins", sans-serif;
+    position: absolute;
+    left: 90px;
+    top: 170px;
+    width: 161.1px;
+    height: 27px;
+  } 
+  .Loremcard1 {
+  
+    width: 264.94px;
+    height: 56.12px;
+    left: 30px;
+     top: 200px;
+    position: absolute;
+      color: black;
+     font-Size: 12px;
+      font-Family: Poppins;
+       font-Weight: 400px;
+        letter-Spacing: 0.48px;
+         word-Wrap: break-word;
+  }   
+  
+  
+  .handup {
+    width: 60.88px;
+    height: 69px;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+  position: absolute;
+  }
+  
+  .how-it-works {
+    color: #095809; 
+    text-align: left;
+    font: 700 40px "Poppins", sans-serif;
+    position: absolute;
+    left: 400px;
+    top: 900px;
+    width: 275.01px;
+    height: 59.9px;
+  }
+  
+  
+  .directworks {
+    color: #095809;
+    text-align: center;
+    font: 500 20px "Poppins", sans-serif;
+    position: absolute;
+    left: 70px;
+    top: 960px;
+    width: 1050.43px;
+    height: 57.9px;
+    transform-origin: 0 0;
+    transform: rotate(0.306deg) scale(1, 1);
+  }
+  .Loremworks{
+    color: #000000;
+    text-align: center;
+    font: 400 14px "Poppins", sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 990px;
+    width: 1112.76px;
+    height: 49.43px;
+    transform-origin: 0 0;
+    transform: rotate(0.306deg) scale(1, 1);
+  }
+

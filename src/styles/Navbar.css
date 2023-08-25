@@ -1,0 +1,169 @@
+
+
+
+.navbar {
+    width: 1104px;
+    height: 122px;
+    position: relative;
+    padding-right: 50px;
+    top:20px;
+    left:102px;
+}
+
+.SearchSection{
+    width: 268px;;
+    height: 52px;
+    left: 820px;
+    top: 10px;
+    position: absolute;
+}
+
+.Support {
+    left: 52px;
+    top: 7px; 
+    position: absolute; 
+    justify-Content: flex-start; 
+    align-Items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.SupportFrame {
+    justify-Content: flex-start;
+    align-Items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+.imgSupport {
+    width: 16px;
+    height: 17px;
+}
+
+
+.Phone {
+    color: #186218;
+    font-Size: 12px;
+     font-Family: Poppins;
+     font-Weight: 500px;
+    word-Wrap: break-word;
+   }
+
+
+   .Cart {
+
+    width: 14px;
+    height: 16.86px;
+    background: #186218;
+   }
+
+   .Lock{
+   width: 14.95px;
+   height: 16.86px;
+   position: relative;
+   }
+  
+
+.SearchInsideBar{
+
+    width: 263px;
+    height: 21.75px;
+     position: relative;
+   right: 30px;
+      top: 39px;
+      position: absolute;
+
+}
+.SearchBox {
+width: 263px;
+height: 21.75px;
+ left: 0px;
+  top: 0px;
+  position: absolute;
+   background: white;
+    border-Radius: 48px; 
+}
+
+.SearchBar {
+  width: 95px;
+  height: 21px;
+   left: 6px;
+    top: 0px;
+     position: absolute;
+
+}
+
+
+.SearchProduct {
+width: 87.59px;
+height: 21px;
+left: 7.41px;
+top: 4px;
+position: absolute;
+text-Align: center;
+color: rgba(51, 51, 51, 0.50);
+font-Size: 10px;
+font-Family: Poppins;
+font-Weight: 500px;
+letter-Spacing: 0.40px;
+}
+
+
+.SearchIcon {
+   width: 8.10px;
+    height: 8.80px;
+    left: 0px; 
+    top: 20px;
+    position: absolute;
+}
+
+.Menu {
+width: 600x;
+height: 21px;
+left: 205.58px;
+top: 35.50px;
+position: absolute;
+justify-Content: flex-start;
+align-Items: flex-start;
+gap: 60px;
+display: inline-flex;
+white-space: nowrap;
+}
+
+
+.Links {
+   color: rgba(51, 51, 51, 0.90);
+    font-Size: 14px;
+    font-family: "Poppins",sans-serif;
+    font-Weight: 500px;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    width: 100%;
+    max-width: auto;
+    min-height: auto;
+
+}
+
+
+
+.Links:hover {
+
+    color: green;
+}
+
+
+
+
+.imgLogo {
+    width: 134px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+    
+   

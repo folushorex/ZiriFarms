@@ -1,0 +1,59 @@
+
+
+.patners-group {
+  
+  display: flex;
+  flex-direction: row;
+  gap: 68px;
+  top: 1550px;
+  left:130px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+
+.behance {
+  width: 127.83px;
+  height: 127.38px;
+  position: absolute;
+  left: 1083.35px;
+  top: 2863.09px;
+}
+.rolls-royce {
+  width: 127.83px;
+  height: 127.38px;
+  position: absolute;
+  left: 887.92px;
+  top: 2863.09px;
+}
+.james-bond {
+  width: 127.83px;
+  height: 127.38px;
+  position: absolute;
+  left: 691.49px;
+  top: 2863.09px;
+}
+.garena {
+  width: 127.83px;
+  height: 127.38px;
+  position: absolute;
+  left: 494.05px;
+  top: 2863.09px;
+}
+.hulu {
+  width: 127.83px;
+  height: 127.38px;
+  position: absolute;
+  left: 298.62px;
+  top: 2867.08px;
+}
+.marriott-hotels {
+  width: 127.83px;
+  height: 127.38px;
+  position: absolute;
+  left: 102.18px;
+  top: 2873.71px;
+}
+
+

@@ -1,0 +1,83 @@
+/* Story.css */
+
+.our-story {
+  display: flex;
+  margin-left:50px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5vw; /* Use viewport units for padding to make it responsive */
+  background-color: #fff; /* Make sure to use the correct color code format (#ffffff) */
+  font-family: 'Poppins', Courier, monospace;
+  font-size: 16px;
+}
+
+.story-content {
+  flex: 1;
+  padding: 2vw; /* Use viewport units for padding to make it responsive */
+}
+
+.story-content p {
+  padding: 1vw; /* Use viewport units for padding to make it responsive */
+}
+
+.story-content h2 {
+  color: #186218;
+  font-size: 4.5rem; /* Increase font size for better readability */
+}
+
+.story-image {
+  flex: 1;
+  padding: 2vw; /* Use viewport units for padding to make it responsive */
+  text-align: center;
+}
+
+.story-image img {
+  max-width: 100%;
+  height: auto; /* Ensure image maintains aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #186218;
+}
+
+.show-more-button {
+  background-color:#186218;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.show-more-button:hover {
+  background-color:#095809;
+}
+
+/* Extended story content */
+.story-content .extended-story {
+  display: none;
+  margin-top: 10px;
+}
+
+.show-more-content .story-content .extended-story {
+  display: block;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .our-story {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .story-content {
+    order: 2;
+    padding: 20px;
+  }
+
+  .story-image {
+    order: 1;
+    margin-bottom: 20px;
+  }
+}

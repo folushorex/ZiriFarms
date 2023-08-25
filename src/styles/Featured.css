@@ -1,0 +1,135 @@
+.products-2 {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 1109px;
+  height: 186px;
+  position: absolute;
+  left: 130px;
+  top: 1500px;
+}
+
+.slider-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.slider2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 2200px; /* Adjust the width as needed */
+  height: 176px;
+  position: relative;
+  white-space: nowrap;
+}
+
+@keyframes slider2 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.slider2:before,
+.slider2:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.slider2:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.slider2:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.slider2:hover .slider2 {
+  animation-play-state: paused;
+}
+
+.slider2 {
+  display: inline-block;
+  animation: slider2 3s infinite linear;
+}
+
+
+.featured-products {
+  color: #095809;
+  text-align: center;
+  font: 700 40px "Poppins", sans-serif;
+  position: absolute;
+  left: 500px;
+  top: 1400px;
+}
+
+.smoked-fish {
+  flex-shrink: 0;
+  width: 245.19px;
+  height: 186px;
+  position: relative;
+}
+.pepper {
+  flex-shrink: 0;
+  width: 236.95px;
+  height: 186px;
+  position: relative;
+}
+.onions-1 {
+  flex-shrink: 0;
+  width: 236.95px;
+  height: 186px;
+  position: relative;
+}
+.shrimps {
+  flex-shrink: 0;
+  width: 240px;
+  height: 186px;
+  position: relative;
+  left: 832px;
+  top: 0px;
+}
+
+
+
+  .whole-chicken {
+    flex-shrink: 0;
+    width: 274px;
+    height: 186px;
+    position: relative;
+    border-style:none;
+    overflow:none;
+}
+  
+  .uziza {
+    flex-shrink: 0;
+    width: 274px;
+    height: 186px;
+    position: relative;
+  }
+  .goat-meat {
+    flex-shrink: 0;
+    width: 275px;
+    height: 186px;
+    position: relative;
+  }
+  .african-spinach {
+    flex-shrink: 0;
+    width: 224px;
+    height: 186px;
+    position: relative;
+  }
+  

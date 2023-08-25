@@ -1,0 +1,56 @@
+/* Reset styles and font-family */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* Root container */
+.App {
+  min-height: 100vh;
+  width: 100%;
+  
+  margin: 0 auto;
+}
+
+/* Top React icons */
+.top-react-icons {
+  font-size: 5rem;
+}
+
+/* Floating WhatsApp button */
+.whatsapp_float {
+  position: fixed;
+  width: 6vw; /* Use viewport width units for responsive width */
+  height: 6vw; /* Maintain the aspect ratio */
+  bottom: 15%; /* Adjust the vertical position */
+  right: 2%; /* Adjust the horizontal position */
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 3vw; /* Use viewport width units for responsive font size */
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+/* Adjust margin-top for icon */
+.whatsapp-icon {
+  margin-top: 1.5vw; /* Use viewport width units for responsive margin */
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      margin-top: 2vw; /* Adjust margin for mobile */
+  }
+
+  .whatsapp_float {
+      width: 10vw; /* Adjust width for mobile */
+      height: 10vw; /* Maintain the aspect ratio */
+      bottom: 3%; /* Adjust vertical position for mobile */
+      right: 1%; /* Adjust horizontal position for mobile */
+      font-size: 4vw; /* Adjust font size for mobile */
+  }
+}
